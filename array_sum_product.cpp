@@ -1,10 +1,11 @@
+#include<iostream>
 using namespace std;
 int main ()
 {
     int arr[10], n, i, sum = 0, pro = 1;
-    cout << "Enter the size of the array : ";
+    cout << "Enter the size of the array : "<<endl;
     cin >> n;
-    cout << "\nEnter the elements of the array : ";
+    cout << "Enter the elements of the array : "<<endl;
     for (i = 0; i < n; i++)
     {
       cin >> arr[i];
