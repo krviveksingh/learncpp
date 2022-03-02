@@ -11,7 +11,7 @@ int main()
     {
         cin>>a[i];
     }
-    int largest = a[1];
+    int largest = a[0];
     for(int i=1;i<n;i++)
     {
         if(a[i]>largest)
@@ -19,7 +19,7 @@ int main()
             largest = a[i];
         } 
     }
-    int smallest = a[1];
+    int smallest = a[0];
     for(int i=1;i<n;i++)
     {
         if(a[i]<smallest)
@@ -27,7 +27,6 @@ int main()
             smallest = a[i];
         } 
     }
-    
     cout<<"The largest value is"<<" "<<largest<<endl;
     cout<<"The smallest value is"<<" "<<smallest<<endl;
     return 0;
