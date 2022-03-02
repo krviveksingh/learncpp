@@ -7,12 +7,12 @@ int main()
     cin>>n;
     int a[n];
     cout<<"Enter the elements of the array"<<endl;
-    for (int i=1;i<n;i++)
+    for (int i=0;i<n;i++)
     {
         cin>>a[i];
     }
     int largest = a[0];
-    for(int i=1;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         if(a[i]>largest)
         {
